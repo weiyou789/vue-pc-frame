@@ -17,7 +17,9 @@ const routerMapping = [
         children: [
             {
                 path: '',
-                meta: {},
+                meta: {
+                    title: '首页'
+                },
                 component: () => import('./views/index/index')
             }
         ]

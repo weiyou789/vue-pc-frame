@@ -9,6 +9,7 @@ Vue.use(Vuex)
 const userInfo = sessionStorage.getItem('userInfo')
 const store = new Vuex.Store({
     state: {
+        // TODO 数据源
         'userInfo': userInfo ? JSON.parse(userInfo) : {}
     },
     mutations,
